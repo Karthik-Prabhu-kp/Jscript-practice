@@ -1,5 +1,11 @@
-var input=prompt("what is your fav game?", "***" );
+var btnCheck = document.querySelector("#btn");
+var userInput = document.querySelector("#input-text");
+var divOutput = document.querySelector("#out")
 
-if (input.toUpperCase() == "COD" || input.toUpperCase() == "CALL OF DUTY"){
-    alert("Call of duty is my fav game as well!!")
-}
+
+
+function clickHandler(){
+    divOutput.innerText = userInput.value
+};
+
+btnCheck.addEventListener('click' , clickHandler) 
