@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Outline&display=swap');
+
+
+body{
+    background-color: #34D399;
+    font-family: 'Bangers', cursive;
+    
+}
+
+.container{
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 60%;
+    border-radius: 1rem;;
+    border: 2px solid black;
+    padding: 1rem;
+    
+}
+
+.container__heading{
+    text-align: center;
+
+}
+
+.container__body{
+    text-align: center;
+    font-size: larger;
+}
+
+.container__input{
+    width: 30%;
+    height:5vh;
+    margin:auto;
+    text-align: center;
+    display:block;
+    margin-bottom: 1rem;
+}
+.container__link{
+    text-decoration: none;
+    color: black;
+
+}
+.container__output{
+    margin:auto;
+    width: 30%;
+    height:5vh;
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+    
+    
+
+
+
+.list-nonbullet{
+    list-style: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+.in-line{
+    display: inline;
+    padding: 1rem 1rem;
+    text-align: center;
+
+}
+
+#btn1{
+    display: block;
+    margin:auto;
+    padding:0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#btn2{
+    display: block;
+    margin:auto;
+    padding:0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+
+}

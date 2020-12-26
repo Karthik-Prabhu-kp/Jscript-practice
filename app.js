@@ -22,22 +22,22 @@ function primeCheckDob(){
     }
 }
 
-var btnCheck = document.querySelector("#btn2");
-var divOutput = document.querySelector("#out2")
+var btnCheck2 = document.querySelector("#btn2");
+var divOutput2 = document.querySelector("#out2")
 
-btnCheck.addEventListener('click' , leapYearCheck) ;
+btnCheck2.addEventListener('click' , leapYearCheck) ;
 
 function leapYearCheck(){
 
   var leapyear = parseInt(document.querySelector("#input2").value)
 
   if ( leapyear%4 == 0 && leapyear%100 != 0 ){
-    divOutput.innerText = leapyear+ " you were born on a leap year !!"
+    divOutput2.innerText = leapyear+ " you were born on a leap year !!"
   }
   else if ( leapyear%400 == 0 ){
-    divOutput.innerText = leapyear+" You were born on a leap year.."
+    divOutput2.innerText = leapyear+" You were born on a leap year.."
   }
-  else { divOutput.innerText= leapyear+" you were NOT born on a leap year.."
+  else { divOutput2.innerText= leapyear+" you were NOT born on a leap year.."
   }
 }
 

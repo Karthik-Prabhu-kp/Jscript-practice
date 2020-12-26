@@ -4,30 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS practice</title>
+    <link rel="stylesheet" href="styles.css">
    
 </head>
 <body>
-    <h1>Check if Bday is Prime</h1>
-    
-    <textarea id="input1" placeholder="Enter Birthday in format ddmm"></textarea>
+    <div class="container">
+    <h1 class="container__heading">Prime check</h1>
+    <p class="container__body">Check if your Birthday is a prime number</p>
+    <textarea class="container__input"id="input1" placeholder="Enter Birthday in format ddmm"></textarea>
     <button id="btn1">Check</button>
 
     
-    <div id="out1" style="border: 1px solid black;
-    height:10vh;
-    width:80%"></div>
+    <div class="container__output" id="out1" ></div>
 
+    <p class="container__body">check with CLI or React app</p>
+    <ul class="list-nonbullet">
+        <li class="in-line"><button class="btn">
+            <a class="container__link" href= "https://u5bb9.csb.app/">React</a>
+            </button></li>
+        <li class="in-line">
+        </a><button class="btn"><a class="container__link" href= "https://repl.it/@KarthikPrabhu1/Prime-check#index.js">CLI</a></button></li>
+    </ul>
+    </div>
+    
+    
 
-    <h1>Check if Bday is on a leapyear</h1>
-
-    <textarea id="input2" placeholder="Enter your Date of birth in format YYYYMMDD"></textarea>
+    <div class="container">
+    <h1 class="container__heading">Leapyear check</h1>
+    <p class="container__body">Check if your Birthday is on a leap year</p>
+    <textarea class="container__input" id="input2" placeholder="Enter your Date of birth in format YYYYMMDD"></textarea>
 
     <button id="btn2">Check</button>
 
     
-    <div id="out2" style="border: 1px solid black;
-    height:10vh;
-    width:80%"></div>
+    <div  class="container__output" id="out2"></div>
+    <p class="container__body">check in CLI</p>
+    <ul class="list-nonbullet">
+        <li class="in-line"><button class="btn"><a class="container__link" href= "https://repl.it/@KarthikPrabhu1/leap-year-check#index.js">CLI</a></button></li>
+    </ul>
+
+    </div>
 
     <script src="app.js" type="text/javascript" ></script>
 </body>
